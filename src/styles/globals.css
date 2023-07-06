@@ -2,26 +2,41 @@
 @tailwind components;
 @tailwind utilities;
 
-:root {
-  --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 214, 219, 220;
-  --background-end-rgb: 255, 255, 255;
+.hero-image {
+  filter: drop-shadow(0 20px 11px rgb(0, 0, 0, 0.5));
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --foreground-rgb: 255, 255, 255;
-    --background-start-rgb: 0, 0, 0;
-    --background-end-rgb: 0, 0, 0;
-  }
+.product-filter {
+  display: grid;
+  grid-template: "stack";
+  color: #fff;
 }
 
-body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+.product-filter > * {
+  grid-area: stack;
+}
+
+.product-filter > div {
+  display: flex;
+  width: 100%;
+  height: 100%;
+  background-color: #00000075;
+}
+
+.product-filter > div > span {
+  margin: auto 0 5px 10px;
+}
+
+.text-highlight::before {
+  content: "";
+  position: absolute;
+  transform: rotate(-2deg) translateX(-1px);
+  width: 9ch;
+  height: 2ch;
+  background-color: aliceblue;
+  z-index: 0;
+}
+
+h1 {
+  font-size: 1.5rem;
 }
