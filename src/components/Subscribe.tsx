@@ -11,7 +11,7 @@ const Subscribe = () => {
         Subscribe To Our News
       </h1>
       <form
-        className={`${noto_sans.className} flex items-center sm:w-[20rem] h-10 sm:h-12 pl-5 border border-[#EE2417] rounded-full mt-10`}
+        className={`${noto_sans.className} flex items-center sm:w-[20rem] h-9 sm:h-12 pl-5 border border-[#EE2417] rounded-full mt-10`}
       >
         <input
           className="w-full h-full focus:outline-none"
