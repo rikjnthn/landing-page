@@ -9,7 +9,7 @@ const Hero = () => {
 
   return (
     <section
-      className={`${tomorrow.className} flex items-center sm:justify-around h-[15rem] sm:h-[30rem] px-5 bg-[#F7600C]`}
+      className={`${tomorrow.className} flex items-center sm:justify-around h-[15rem] sm:h-[30rem] px-5 bg-[#F7600C] overflow-hidden`}
     >
       <div className="text-white z-10">
         <h1 className="font-semibold sm:text-[2rem]">Trendy Footwear</h1>
