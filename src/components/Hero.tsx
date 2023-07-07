@@ -24,7 +24,7 @@ const Hero = () => {
         className={`max-sm:absolute w-32 max-sm:right-1 sm:w-52 md:w-80 transition-[transform,_opacity] duration-[2s] ${
           startTransition
             ? "translate-x-0 opacity-100"
-            : "translate-x-[100%] opacity-0"
+            : "translate-x-[10%] opacity-0"
         }`}
       >
         <Image

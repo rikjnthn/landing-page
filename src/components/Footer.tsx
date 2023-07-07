@@ -11,9 +11,9 @@ const Footer = () => {
       <Logo />
       <ul className={`${noto_sans.className} mt-6 text-sm`}>
         <FooterNav href="/" name="Home" />
-        <FooterNav href="/" name="Product" />
-        <FooterNav href="/" name="Contact" />
-        <FooterNav href="/" name="Terms of Service" />
+        <FooterNav href="/product" name="Product" />
+        <FooterNav href="/contact" name="Contact" />
+        <FooterNav disabled href="/terms-of-service" name="Terms of Service" />
       </ul>
       <Image
         className="ml-auto mt-auto"
