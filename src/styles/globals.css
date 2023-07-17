@@ -40,3 +40,35 @@
 h1 {
   font-size: 1.5rem;
 }
+
+.home-hero-image {
+  animation: come-from-right 2s alternate 1;
+}
+
+.sect-2-image {
+  animation: come-from-left 2s alternate 1;
+}
+
+@keyframes come-from-right {
+  from {
+    opacity: 0;
+    transform: translateX(10%);
+  }
+
+  to {
+    opacity: 100;
+    transform: 0;
+  }
+}
+
+@keyframes come-from-left {
+  from {
+    opacity: 0;
+    transform: translateX(-10%);
+  }
+
+  to {
+    opacity: 100;
+    transform: 0;
+  }
+}
