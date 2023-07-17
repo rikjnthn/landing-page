@@ -5,7 +5,6 @@ import heroImage from "public/hero-image.png";
 import { tomorrow } from "@/fonts";
 
 const Hero = () => {
-
   return (
     <section
       className={`${tomorrow.className} flex items-center sm:justify-around h-[15rem] sm:h-[30rem] px-5 bg-orange-3`}
@@ -22,11 +21,7 @@ const Hero = () => {
         </p>
       </div>
       <div className="home-hero-image max-sm:absolute w-32 max-sm:right-1 sm:w-52 md:w-80">
-        <Image
-          className="hero-image"
-          src={heroImage}
-          alt="Footwear"
-        />
+        <Image className="hero-image" src={heroImage} alt="Footwear" />
       </div>
     </section>
   );
