@@ -9,7 +9,7 @@ const Headers = () => {
   const [hamburger, setHamburger] = useState<boolean>(false);
   const handleClose = () => setHamburger(() => false);
   return (
-    <header className="flex items-center justify-between h-12 px-3 sm:px-8 sm:h-16 bg-[#EE2417]">
+    <header className="flex items-center justify-between h-12 px-3 sm:px-8 sm:h-16 bg-orange-1">
       <Logo />
       <button
         onClick={() => setHamburger((prev) => !prev)}
@@ -23,7 +23,7 @@ const Headers = () => {
         )}
       </button>
       <div
-        className={`flex max-sm:flex-col max-sm:absolute right-0 top-12 max-sm:w-48 p-5 max-sm:bg-[#EE2417] max-sm:rounded-es-md z-20 ${
+        className={`flex max-sm:flex-col max-sm:absolute right-0 top-12 max-sm:w-48 p-5 max-sm:bg-orange-1 max-sm:rounded-es-md z-20 ${
           hamburger ? "" : "hidden"
         } sm:block`}
       >

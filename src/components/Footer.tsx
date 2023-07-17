@@ -7,7 +7,7 @@ import { noto_sans } from "@/fonts";
 
 const Footer = () => {
   return (
-    <footer className="flex flex-col h-[20rem] p-5 sm:px-12 md:px-20 bg-[#D6360B]">
+    <footer className="flex flex-col h-[20rem] p-5 sm:px-12 md:px-20 bg-orange-2">
       <Logo />
       <ul className={`${noto_sans.className} mt-6 text-sm`}>
         <FooterNav href="/" name="Home" />

@@ -26,7 +26,7 @@ const TeamMember = ({
         />
       </div>
       <div className="flex flex-col items-center gap-1">
-        <span className="text-[#EE2417]">{name}</span>
+        <span className="text-orange-1">{name}</span>
         <span className="text-stone-600 text-sm">{position}</span>
       </div>
     </div>

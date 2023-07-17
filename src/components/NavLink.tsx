@@ -16,7 +16,7 @@ const NavLink = ({
 
   useEffect(() => {
     setIsOpen(() => pathname === href);
-  }, [pathname]);
+  }, [pathname, href]);
   return (
     <li
       onClick={close}

@@ -14,7 +14,7 @@ function Home() {
       <Hero />
       <section className="px-5 py-20">
         <h1
-          className={`${tomorrow.className} sm:text-[2.5rem] sm:leading-10 text-center font-semibold text-[#D6360B] mb-10`}
+          className={`${tomorrow.className} sm:text-[2.5rem] sm:leading-10 text-center font-semibold text-orange-2 mb-10`}
         >
           Made By the World&apos;s Top Designer
         </h1>
@@ -36,7 +36,7 @@ function Home() {
           </p>
         </div>
       </section>
-      <section className={`flex flex-col h-[24rem] px-5 py-20 bg-[#D60B42]`}>
+      <section className={`flex flex-col h-[24rem] px-5 py-20 bg-red-1`}>
         <h1
           className={`${tomorrow.className} sm:text-[2.5rem] sm:leading-10 text-center font-semibold text-white`}
         >

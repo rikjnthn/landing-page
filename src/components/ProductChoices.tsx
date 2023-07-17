@@ -12,7 +12,7 @@ const ProductChoices = () => {
   return (
     <section className={`${noto_sans.className} flex flex-col p-5 my-10 sm:my-20`}>
       <h1
-        className={`${tomorrow.className} font-semibold sm:text-[2.5rem] mx-auto text-[#D6360B]`}
+        className={`${tomorrow.className} font-semibold sm:text-[2.5rem] mx-auto text-orange-2`}
       >
         Our Product
       </h1>

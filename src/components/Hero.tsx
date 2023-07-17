@@ -9,13 +9,13 @@ const Hero = () => {
 
   return (
     <section
-      className={`${tomorrow.className} flex items-center sm:justify-around h-[15rem] sm:h-[30rem] px-5 bg-[#F7600C]`}
+      className={`${tomorrow.className} flex items-center sm:justify-around h-[15rem] sm:h-[30rem] px-5 bg-orange-3`}
     >
       <div className="text-white z-10">
         <h1 className="font-semibold sm:text-[2rem]">Trendy Footwear</h1>
         <p className="max-sm:text-sm mt-3">
           Stylish yet{" "}
-          <span className="text-highlight text-[#EE2417]">
+          <span className="text-highlight text-orange-1">
             <span className="relative z-10">comfortable</span>
           </span>
         </p>
